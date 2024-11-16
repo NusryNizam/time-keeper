@@ -1,6 +1,7 @@
 {
   "name": "Stock Pix",
   "code": "plugin.js",
+  "icon": "/icon.png",
   "description": "Search for stock images across different sources",
   "permissions": [
     "content:read",
