@@ -1,5 +1,6 @@
 {
-  "name": "penpot-plugin-starter-template",
+  "name": "stock-pix",
+  "description": "Search for free stock images in Penpot",
   "private": true,
   "version": "0.0.0",
   "type": "module",
