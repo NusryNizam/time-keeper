@@ -23,7 +23,7 @@ penpot.ui.onMessage<{ type: string; data: any }>((message) => {
         });
       })
       .catch((error) => {
-        console.log(error);
+        console.error(error);
       });
   }
 });

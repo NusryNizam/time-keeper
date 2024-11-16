@@ -13,7 +13,6 @@ const submitButton = document.getElementById(
 const searchInput = document.getElementById("search-input") as HTMLInputElement;
 
 submitButton.addEventListener("click", (e) => {
-  console.log("click", searchInput.value);
   e.preventDefault();
   getData(searchInput.value.trim());
 });
@@ -28,10 +27,10 @@ window.addEventListener("message", (event) => {
     axiosInstance
       .get(event.data, { baseURL: "" })
       .then((e) => {
-        console.log("Downloaded", e);
+        console.info("Download success", e);
       })
       .catch((err) => {
-        console.log(err);
+        console.error(err);
       });
   }
 });
@@ -44,8 +43,6 @@ async function getData(query: string) {
         params: { query, per_page: 20 },
       }
     );
-
-    console.log(response.data.results);
 
     renderPhotos(response.data.results);
   } catch (error) {
