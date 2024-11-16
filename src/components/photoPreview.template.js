@@ -2,7 +2,7 @@ export const photoPreviewTemplate = `
   <template>
     <style>
       img {
-        width: 200px; 
+        width: 100%; 
         height: auto;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
