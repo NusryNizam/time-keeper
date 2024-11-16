@@ -23,9 +23,10 @@ window.addEventListener("message", (event) => {
     document.body.dataset.theme = event.data.theme;
   }
 
+  console.log(event.data);
   if (event.data.type === "success-image") {
     axiosInstance
-      .get(event.data, { baseURL: "" })
+      .get(event.data.data, { baseURL: "" })
       .then((e) => {
         console.info("Download success", e);
       })
