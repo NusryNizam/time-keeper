@@ -1,4 +1,4 @@
-export default photoPreviewTemplate = `
+export const photoPreviewTemplate = `
   <template>
     <style>
       img {

@@ -1,4 +1,4 @@
-import photoPreviewTemplate from "/src/components/photoPreview.template.js";
+import { photoPreviewTemplate } from "/src/components/photoPreview.template.js";
 
 document.body.insertAdjacentHTML("beforeend", photoPreviewTemplate);
 
