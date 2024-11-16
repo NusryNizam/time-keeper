@@ -1,6 +1,12 @@
 {
-  "name": "Penpot starter plugin",
+  "name": "Stock Pix",
   "code": "plugin.js",
-  "description": "This is a starter plugin for Penpot",
-  "permissions": ["content:read", "content:write"]
+  "description": "Search for stock images across different sources",
+  "permissions": [
+    "content:read",
+    "content:write",
+    "page:read",
+    "file:read",
+    "selection:read"
+  ]
 }
