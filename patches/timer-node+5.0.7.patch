@@ -1,0 +1,22 @@
+diff --git a/node_modules/timer-node/src/timer.js b/node_modules/timer-node/src/timer.js
+index 45749a0..09c510d 100644
+--- a/node_modules/timer-node/src/timer.js
++++ b/node_modules/timer-node/src/timer.js
+@@ -253,13 +253,14 @@ class Timer {
+    * @returns {string}
+    */
+   format(template = '%label%d d, %h h, %m m, %s s, %ms ms') {
++    const pad = (num) => String(num).padStart(2, '0'); // Helper for zero-padding
+     const time = this.time();
+     return template
+       .replace('%label', this._label ? `${this._label}: ` : '')
+       .replace('%ms', time.ms)
+-      .replace('%s', time.s)
+-      .replace('%m', time.m)
+-      .replace('%h', time.h)
++      .replace('%s', pad(time.s))  
++      .replace('%m', pad(time.m))  
++      .replace('%h', pad(time.h))  
+       .replace('%d', time.d);
+   }
+ 

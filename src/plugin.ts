@@ -1,6 +1,6 @@
 penpot.ui.open("Timekeeper", `?theme=${penpot.theme}`, {
-  width: 500,
-  height: 500,
+  width: 250,
+  height: 160,
 });
 
 penpot.ui.onMessage<{ type: string; data: any }>((message) => {

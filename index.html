@@ -3,12 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
     <title>Timer Keeper</title>
   </head>
   <body>
-    <example-element></example-element>
+    <div class="timer-element">
+      <p id="timeDisplay" class="display time">00:00</p>
+
+      <button id="startButton" type="button" data-appearance="primary">
+        Start
+      </button>
+
+      <button
+        id="stopButton"
+        type="button"
+        data-appearance="primary"
+        data-variant="destructive"
+      >
+        Stop
+      </button>
+    </div>
 
     <script type="module" src="/src/main.ts"></script>
-    <script type="module" src="/src/components/example-element.ts"></script>
   </body>
 </html>

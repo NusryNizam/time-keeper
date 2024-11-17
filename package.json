@@ -5,14 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite-live-preview",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@penpot/plugin-styles": "1.0.0",
     "@penpot/plugin-types": "1.0.0",
-    "lit": "^3.2.1"
+    "timer-node": "^5.0.7"
   },
   "devDependencies": {
+    "patch-package": "^8.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.4.6",
     "vite-live-preview": "^0.2.2"
