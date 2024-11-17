@@ -60,3 +60,29 @@ form {
   min-height: 60px;
   padding: 0.5rem;
 }
+
+#loader-container {
+  padding-left: 0.5rem;
+}
+
+.loader {
+  width: 15px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  border-right: 2px solid var(--da-primary);
+  border-left: 2px solid var(--da-primary);
+  border-bottom: 2px solid var(--da-primary);
+  border-top: 2px solid transparent;
+
+  animation: loading 1s infinite linear;
+}
+
+@keyframes loading {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
