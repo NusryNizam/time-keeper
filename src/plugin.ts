@@ -1,4 +1,4 @@
-penpot.ui.open("Plugin Template", `?theme=${penpot.theme}`, {
+penpot.ui.open("Timekeeper", `?theme=${penpot.theme}`, {
   width: 500,
   height: 500,
 });

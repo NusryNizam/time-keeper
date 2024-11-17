@@ -1,8 +1,8 @@
 {
-  "name": "Plugin Template",
+  "name": "Timekeeper",
   "code": "plugin.js",
   "icon": "/icon.png",
-  "description": "Plugin template with TS, WebComponents with Lit",
+  "description": "Keep timers and countdowns with this plugin",
   "permissions": [
     "content:read",
     "content:write",
