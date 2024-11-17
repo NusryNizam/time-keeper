@@ -6,6 +6,6 @@ const accessKey = import.meta.env.VITE_ACCESS_KEY;
 export const axiosInstance = axios.create({
   baseURL: baseURL,
   headers: {
-    Authorization: `Client-ID ${accessKey}`,
+    Authorization: `Client-ID ${accessKey}`, // Change this as needed
   },
 });

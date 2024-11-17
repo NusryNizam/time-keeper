@@ -1,8 +1,8 @@
 {
-  "name": "Stock Pix",
+  "name": "Plugin Template",
   "code": "plugin.js",
   "icon": "/icon.png",
-  "description": "Search for stock images across different sources",
+  "description": "Plugin template with TS, WebComponents with Lit",
   "permissions": [
     "content:read",
     "content:write",

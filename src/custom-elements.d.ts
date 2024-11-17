@@ -1,7 +1,7 @@
-import { ImagePreview } from "/src/components/image-preview.ts";
+import { ExampleElement } from "/src/components/example-element.ts";
 
 declare global {
   interface HTMLElementTagNameMap {
-    "image-preview": ImagePreview;
+    "example-element": ExampleElement;
   }
 }

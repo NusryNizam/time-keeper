@@ -1,6 +1,6 @@
 {
-  "name": "stock-pix",
-  "description": "Search for free stock images in Penpot",
+  "name": "penpot-plugin-template",
+  "description": "Penpot plugin template with TypeScript, Lit with Vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
