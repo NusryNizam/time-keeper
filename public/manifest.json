@@ -2,7 +2,7 @@
   "name": "Timekeeper",
   "code": "plugin.js",
   "icon": "/icon.png",
-  "description": "Keep timers and countdowns with this plugin",
+  "description": "Start a simple timer inside Penpot",
   "permissions": [
     "content:read",
     "content:write",

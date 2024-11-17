@@ -1,6 +1,6 @@
 {
   "name": "time-keeper",
-  "description": "A timer plugin to keep timers and countdowns",
+  "description": "A simple plugin start a timer",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
