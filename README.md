@@ -1,3 +1,7 @@
 ## Penpot Plugin Template
 
-Includes: - TypeScript - Lit for WebComponents - Axios
+Includes: 
+  - TypeScript
+  - Lit for WebComponents (https://lit.dev/)
+  - Axios
+  - Vite
