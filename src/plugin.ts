@@ -3,12 +3,6 @@ penpot.ui.open("Timekeeper", `?theme=${penpot.theme}`, {
   height: 160,
 });
 
-penpot.ui.onMessage<{ type: string; data: any }>((message) => {
-  if (message.type === "create-text") {
-    penpot.createText("Hello!");
-  }
-});
-
 penpot.on("themechange", (theme) => {
   penpot.ui.sendMessage({
     source: "penpot",
