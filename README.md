@@ -4,6 +4,9 @@ A simple plugin to add a timer inside Penpot
 
 ![cover-mini](https://github.com/user-attachments/assets/12802f35-dad5-4717-877b-ce5c4e68877d)
 
+<br>
+Install here: https://penpot.app/penpothub/plugins/timekeeper <br>
+Hosted on Netlify: https://time-keeper-plugin.netlify.app/
 
 #### Screenshots
 
